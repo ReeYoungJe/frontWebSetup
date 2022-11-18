@@ -5,8 +5,9 @@ import  Main from '@/components/Main'
 const routes = [
   {
     main : '/',
-    component: Main,
+    component: Main
   }
+
 ];
 
 const router = createRouter({
