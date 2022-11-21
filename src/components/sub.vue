@@ -1,10 +1,12 @@
 <template>
-  <div>main</div>
+<div>
+  Sub페이지 입니다
+</div>
 </template>
 
 <script>
 export default {
-  name: "Main"
+  name: "sub"
 }
 </script>
 

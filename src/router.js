@@ -1,11 +1,17 @@
 import { createWebHistory, createRouter } from "vue-router";
 
 import  Main from '@/components/Main'
+import sub from "@/components/sub";
 
 const routes = [
   {
-    main : '/',
+    path : '/',
     component: Main
+  },{
+    path: '/sub',
+    component: sub
+  },{
+
   }
 
 ];
